@@ -1,0 +1,31 @@
+{
+  "name": "bakery-code-challenge",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app",
+    "start-with-file": "ts-node src/app fixtures/input.txt",
+    "test": "jasmine-ts \"specs/**/*.spec.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timothydang/bakery-code-challenge"
+  },
+  "author": "Timothy Dang",
+  "devDependencies": {
+    "@types/async": "^2.0.42",
+    "@types/csv-parse": "^1.1.9",
+    "@types/jasmine": "^2.5.54",
+    "@types/node": "^8.0.26",
+    "jasmine-spec-reporter": "^4.2.1",
+    "jasmine-ts": "^0.2.1"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "csv-parse": "^1.2.1",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.1"
+  }
+}
