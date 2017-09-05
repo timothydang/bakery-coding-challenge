@@ -1,11 +1,11 @@
-*** PH Bakery Coding Challenge ***
+# PH Bakery Coding Challenge
 
 ## Prerequisite
-Run this to install external dependencies required to run.
+Run this to install external dependencies required.
 
 ```
 npm install -g ts-node
-yarn install
+npm install
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ npm start
 * To run the app with a test input file from `fixtures/input.txt`
 
 ```
-npm start-from-file
+npm run start-from-file
 ```
 
 or you can point it to use with any external file path
